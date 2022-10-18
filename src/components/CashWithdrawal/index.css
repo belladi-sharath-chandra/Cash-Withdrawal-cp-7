@@ -1,0 +1,113 @@
+* {
+  font-family: 'Roboto';
+}
+.bg-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10vh;
+}
+.container {
+  background-color: #150b3e;
+  height: 80vh;
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5vh;
+  border-radius: 20px;
+  justify-content: space-between;
+}
+.name-container {
+  display: flex;
+  height: 6vh;
+  width: 30vw;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.first {
+  height: 60px;
+  width: 60px;
+  border-radius: 80px;
+  background-color: #c7d2fe;
+  text-align: center;
+  padding: 2vh;
+  font-size: 20px;
+  font-weight: bold;
+  color: #585076;
+}
+.name {
+  padding-top: 2vh;
+  padding-left: 2vh;
+  font-size: 20px;
+  font-weight: bold;
+  color: #d4d2db;
+}
+
+.balance-container {
+  display: flex;
+  height: 6vh;
+  width: 30vw;
+  margin-top: 5vh;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.your-balance {
+  color: #382f5a;
+  font-size: 24px;
+  font-weight: 800;
+}
+.balance {
+  color: #d4d2db;
+  font-size: 40px;
+  font-weight: bold;
+}
+.span {
+  font-size: 20px;
+  color: #382f5a;
+}
+.withdraw {
+  font-size: 25px;
+  font-weight: bold;
+  color: #d4d2db;
+  margin-top: 15vh;
+}
+.choose {
+  color: #382f5a;
+  font-weight: bold;
+}
+.ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.denomination-item {
+  list-style-type: none;
+  width: 40%;
+  margin-left: 20px;
+  margin-bottom: 16px;
+}
+
+.denomination-button {
+  background-color: #382f5a;
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #c4c4c4;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .denomination-button {
+    font-size: 24px;
+  }
+}
